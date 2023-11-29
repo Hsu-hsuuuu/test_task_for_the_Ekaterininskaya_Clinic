@@ -1,0 +1,19 @@
+.translation_info {
+    width: 100vw;
+    height: 21.4815vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(244.77deg, rgba(171, 82, 206, 0.15) 25.08%, 
+    rgba(254, 134, 135, 0.15) 73.48%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    ;
+}
+
+.translation_info_text {
+    font-family: var(--font-family-regular400);
+    font-size: 0.938vw;
+    line-height: 2.6167vh;
+    color: rgba(90, 92, 97, 1);
+}

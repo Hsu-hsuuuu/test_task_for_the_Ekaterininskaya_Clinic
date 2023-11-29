@@ -1,0 +1,111 @@
+.vebinar_programm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7.3148vh;
+    position: relative;
+}
+
+.vebinar_title {
+    margin-top: 8.7037vh;
+    font-family: var(--font-family-regular400);
+    font-size: 1.563vw;
+    line-height: 2.7778vh;
+}
+
+.vebinar_info_block {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family-regular400);
+    font-size: 0.938vw;
+    line-height: 2.6167vh;
+}
+
+.vebinar_info {
+    font-family: var(--font-family-bold700);
+    
+}
+
+.vebinar_table_lists {
+    margin-top: 5vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family-regular400);
+    font-size: 0.761vw;
+    line-height: 2.1259vh;
+    
+}
+
+.vebinar_table_lists ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8519vh;
+}
+
+.vebinar_table_lists ul a {
+    color: rgba(90, 92, 97, 1);
+    ;
+    text-decoration: underline;
+}
+
+.vebinar_table_lists li::marker {
+    display: block;
+
+
+    list-style-position: inherit;
+    content: url('../images/vebinar_programm_imgs/Ellipse.svg')
+}
+
+.vebinar_table_lists li p {
+    margin-left: 0.609vw;
+}
+
+.vebinar_btns_block {
+    margin-top: 7.0370vh;
+    display: flex;
+    gap: 1.163vw;
+    font-family: var(--font-family-bold700);
+}
+
+.vebinar_btns_block button {
+    width: 17.952vw;
+    height: 5.8028vh;
+    border-radius: 41.78px;
+}
+
+.vebinar_btn_registr {
+    background: linear-gradient(244.77deg, #AB52CE 25.08%, #FE8687 73.48%),
+    linear-gradient(0deg, #C4C4C4, #C4C4C4);
+    color: rgba(255, 255, 255, 1);
+}
+
+.vebinar_btns_rules {
+    border-radius: 24px;
+    background-image: linear-gradient(244.77deg, #AB52CE 25.08%, #FE8687 73.48%);
+    background-origin: border-box;
+    box-shadow: inset 0 100vw white;
+    border: 2.09px solid transparent;
+}
+
+.vebinar_circle_img {
+    width: 25vw;
+    margin-top: 23.6296vh;
+    margin-right: 68.717vw;
+    position: absolute;
+    z-index: -3;
+    object-fit:contain;
+}
+
+.webinar_baby_pacifier_img {
+    width: 13.021vw;
+    margin-top: 46.2593vh;
+    margin-left: 83.938vw;
+    position: absolute;
+    z-index: -3;
+    object-fit:contain;
+}

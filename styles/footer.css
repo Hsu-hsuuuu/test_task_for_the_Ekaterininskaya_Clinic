@@ -1,0 +1,21 @@
+.footer {
+    margin-top: 6.5741vh;
+    height: 8.3333vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43.229vw;
+
+    font-family: var(--font-family-regular400);
+    font-size: 0.729vw;
+    line-height: 1.7704vh;
+}
+
+.footer_contacts {
+    display: flex;
+    gap: 1.979vw;
+}
+
+.footer_contacts img {
+    width: 2.604vw;
+}

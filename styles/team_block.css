@@ -1,0 +1,131 @@
+.team_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_block_title {
+    margin-top: 8.6111vh;
+    margin-bottom: 8.2407vh;
+    font-family: var(--font-family-regular400);
+    font-size: 1.563vw;
+    color: rgba(90, 92, 97, 1);
+    ;
+}
+
+.team_slider_container {
+    width: 74.997vw;
+    height: 42vh;
+    display: flex;
+    column-gap: 5.196vw;
+    /* overflow-x: auto; */
+    /* scroll-behavior: smooth;  */
+} 
+
+/* .team_slider_container::-webkit-scrollbar {
+    display: none;
+} */
+
+.team_slider_item {
+    width: 11.315vw;
+    /* height: 37vh; */
+}
+
+.doctor_photo {
+    max-width: 11.315vw;
+    min-height: 23.6935vh;
+    /* position: relative;
+    overflow: hidden; */
+}
+
+.doctor_name {
+    margin-top: 2.6111vh;
+    width: 11.315vw;
+    text-align: center;
+    font-family: var(--font-family-regular400);
+    font-size: 0.979vw;
+    line-height: 2.4176vh;
+}
+
+.doctor_post {
+    margin-top: 0.5806vh;
+    text-align: center;
+    font-family: var(--font-family-regular400);
+    font-size: 0.761vw;
+    line-height: 2.4176vh;
+}
+
+.team_pre-btn,
+.team_nxt-btn {
+    width: 1.250vw;
+
+  /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.pre-btn {
+
+}
+
+.nxt-btn {
+
+}
+
+.team_down_path {
+    display: flex;
+    align-self: flex-start;
+    /* gap: 3.698vw; */
+}
+
+.team_down_path_bg_test {
+    /* width: 4.172vw; */
+}
+.full_card_info {
+    margin-top: 9.1954vh;
+    margin-right: 3.698vw;
+    margin-left: 10.63vw;
+    width: 47.552vw;
+    height: 33.5185vh;
+    display: flex;
+    gap: 3.299vw;
+}
+
+.full_card_info_text {
+    margin-top: 2.6852vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2.3148vh;
+}
+
+.full_card_info_name {
+    font-family: var(--font-family-regular400);
+    font-size: 1.752vw;
+    line-height: 4.4167vh;
+}
+
+.full_card_info_post {
+    font-family: var(--font-family-regular400);
+    font-size: 1.051vw;
+    line-height: 2.6vh;
+}
+
+.full_card_info_med_post, 
+.full_card_info_experience {
+    font-family: var(--font-family-regular400);
+    font-size: 1.051vw;
+    line-height: 2.6vh;
+    color: rgba(90, 92, 97, 0.7);
+    ;
+}
+
+.team_down_path_bg_circle {
+    width: 25vw;
+    object-fit:contain;
+    z-index: -3;
+}

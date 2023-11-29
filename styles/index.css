@@ -1,0 +1,28 @@
+:root {
+    /* --color-black: #000000;
+    --color-white: #FFFFFF; */
+
+    --font-family-regular400: Manrope-Regular, sans-serif;
+    --font-family-bold700: Manrope-Bold, sans-serif;
+    --font-family-exbold800: Manrope-ExtraBold, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1920px;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    display: table;
+    margin: auto;
+    max-width: 1920px;
+    width: 100vw;
+}

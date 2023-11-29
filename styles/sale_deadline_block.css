@@ -1,0 +1,11 @@
+.sale_deadline_block {
+    margin-top: 18.3639vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: var(--font-family-regular400);
+    font-size: 0.761vw;
+    line-height: 2.1259vh;
+}
